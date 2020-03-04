@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'IBM Plex Sans', Helvetica, Arial, sans-serif ;
+}
+
+.saisir {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    background: url(imgs/company.jpg) no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    padding: 50px;
+    background-size: cover;
+}
+
+.subscribe h1 {
+    text-align: center;
+     color: #fff;
+     margin: 20px;
+     font-size: 30px;
+     margin-top: 0;
+}
+
+.for-email {
+    width: 70%;
+}
+
+ .for-email , .for-email button {
+    padding: 12px;
+    border: none;
+}
+
+.saisir button {
+    color: #fff;
+    background: #5a1515;
+    border: none;
+    padding: 12px;
+}
+
+footer {
+    color: #fff;
+    background: #000;
+    height: 290px;
+}
+
+.list-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 85%;
+}
+
+.sec-foo {
+    margin-top: 40px;
+}
+
+.list-footer img {
+    width: 250px;
+}
+
+.list-footer ul li {
+    list-style: none;
+    color: #ccc;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.list-footer div h5 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.social-media {
+    text-align: center;
+    color: #ccc;
+}
+
+.social-media .fa, .fab { 
+    font-size: 23px;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+.end-foo {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 9%;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 13px;
+}
+
+footer #banks {
+    width: 260px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+/****  Media For Footer  ****/
+
+@media screen and (max-width: 700px) {
+    .list-footer {
+        display: block;
+    }
+    
+    .sec-foo {
+        text-align: center;
+    }
+
+    .end-foo {
+        display: block;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    footer {
+        height: 870px;
+    }
+
+    .list-footer img {
+        margin-top: 45px;
+    }
+
+    .sec-foo:first-child {
+        margin-top: 0;
+    }
+
+    .end-foo {
+        margin: 0;
+    }
+
+    footer #banks {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    .mx-disc .far, .mx-disc .fab {
+        margin: auto 38%;
+    }
+
+    footer #banks {
+        margin-left: 15%;
+    }
+}
